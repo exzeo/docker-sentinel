@@ -59,4 +59,4 @@ RUN set -eux && \
     apk del gnupg openssl && \
     rm -rf ~/.gnupg
 
-ENTRYPOINT ["docker-entrypoint.sh"]
+# ENTRYPOINT ["docker-entrypoint.sh"]
