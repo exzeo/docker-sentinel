@@ -26,7 +26,6 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          context: ./0.X
           build-args: |
             VERSION="0.16.1"
           tags: exzeo/sentinel:latest
