@@ -28,5 +28,5 @@ jobs:
           push: true
           build-args: |
             NAME=sentinel
-            VERSION=0.16.1
+            VERSION=0.19.10
           tags: exzeo/sentinel:latest
